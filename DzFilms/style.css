@@ -1,0 +1,30 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 30px;
+}
+h1 {
+    text-align:center;
+    margin-bottom: 30px;
+}
+.movies{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.movie-card {
+    background-color: rgb(164, 236, 165);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.movie-card h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.movie-card div {
+    color: #666;
+    margin-bottom: 8px;
+}
